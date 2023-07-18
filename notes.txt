@@ -1,0 +1,22 @@
+
+1. List : Group of task
+
+--> tbl_lists
+
+----> list_id (Primary key)
+----> list_name
+----> list_description
+
+
+
+
+2. Tasks
+
+--> tbl_tasks
+
+----> task_id (Primary key)
+----> task_name
+----> task_description
+----> list_id
+----> priority
+----> deadline

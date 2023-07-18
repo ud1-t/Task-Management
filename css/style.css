@@ -1,0 +1,138 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+}
+
+body{
+    background-color: #1c1c1c;
+}
+
+.wrapper {
+    border: 1px;
+    width: 70%;
+    margin: 20px auto;
+    padding: 2%;
+    text-align: center;
+    background-color: #2D2D2D;
+    border-radius: 32px;
+}
+
+.menu-link {
+    color: #ababab;
+    margin: 3.2%;
+    text-decoration: none;
+}
+
+h1 {
+    color: #efefef;
+    margin-bottom: 16px;
+}
+
+.all-task {
+    border: 1px double #BDA0D4;
+    margin-top: 20px;
+    position: relative;
+    background-color: #BDA0D4;
+    border-radius: 24px;
+}
+
+.all-lists {
+    border: 1px double #BDA0D4;
+    margin-top: 20px;
+    position: relative;
+    background-color: #BDA0D4;
+    border-radius: 24px;
+}
+
+.add-task {
+    position: absolute;
+    top: 16px;
+    right: 24px;
+    text-decoration: none;
+    background-color: #1c1c1c;
+    color: #dddddd;
+    padding: 12px 12px;
+    border-radius: 24px;
+}
+
+table {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    margin: 72px auto;
+    border: 1px;
+}
+
+.tablelist{
+    position: relative;
+    text-align: center;
+    width: 100%;
+    margin: 72px auto;
+    border: 1px;
+}
+
+h3 {
+    color: #cdcdcd;
+    margin: 16px;
+}
+
+.upd-del {
+    text-decoration: none;
+    color: #ddd;
+}
+
+th {
+    padding-bottom: 16px;
+    border: 1px dotted #1c1c1c;
+    border-radius: 2px;
+}
+
+td {
+    padding: 4px;
+    border: 1px dotted #1c1c1c;
+    border-radius: 2px;
+    background-color: #BDA0D4;
+}
+
+input[type=text] {
+    background-color: #BDA0D4;
+    border: none;
+    width: 100%;
+}
+
+input[type=date] {
+    background-color: #BDA0D4;
+    border: none;
+    width: 100%;
+}
+
+textarea {
+    background-color: #BDA0D4;
+    border: none;
+    width: 100%;
+    resize: none;
+    height: 20px;
+}
+
+select {
+    background-color: #BDA0D4;
+    border: none;
+    width: 100%;
+}
+
+input[type=submit] {
+    background-color: #1c1c1c;
+    border: none;
+    color: #efefef;
+    padding: 8px 12px;
+    border-radius: 24px;
+}
+
+.confirm {
+    position: absolute;
+    border-radius: 24px;
+    background-color: #1c1c1c;
+    margin: 16px 50% 0px 50%;
+    
+}
